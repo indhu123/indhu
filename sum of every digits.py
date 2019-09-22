@@ -1,0 +1,11 @@
+a=input()
+b=len(a)
+c=int(a)
+f=0
+while(c>0):
+    d=c%10
+    b=b-1
+    e=d**b
+    f=f+e
+    c=c//10
+print(f,end="")    
